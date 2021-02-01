@@ -14,16 +14,14 @@ import java.io.Serializable;
 public class Note implements Serializable{
 
     private String title;
-   private  String description;
+   private  String contents;
 
     public Note() {
-        title=null;
-        description=null;
     }
 
-    public Note(String title, String description) {
+    public Note(String title, String contents) {
         this.title = title;
-        this.description = description;
+        this.contents = contents;
     }
 
     public String getTitle() {
@@ -34,13 +32,15 @@ public class Note implements Serializable{
         this.title = title;
     }
 
-    public String getDescription() {
-        return description;
+    public String getContents() {
+        return contents;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setContents(String contents) {
+        this.contents = contents;
     }
+
+  
     
     
     
