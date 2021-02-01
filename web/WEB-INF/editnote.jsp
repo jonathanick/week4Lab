@@ -16,7 +16,7 @@
             <h1>Edit Note</h1>
             <p>Title: <input type="text" name="title" value="${title}"></p>
             <p>Contents: <input type="text" name="contents" value="${contents}" style="height:200px;"></p>
-            <input type="submit" value="save" name="submit">
+            <input type="submit" value="Save" name="submit">
         </form>
     </body>
 </html>
